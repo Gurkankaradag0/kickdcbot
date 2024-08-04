@@ -1,0 +1,30 @@
+{
+    "name": "kickdcbot",
+    "main": "index.js",
+    "homepage": "https://github.com/Gurkankaradag0/kickdcbot#readme",
+    "author": {
+        "name": "Gürkan Karadağ",
+        "email": "gurkan.karadag.1907@gmail.com",
+        "url": "https://github.com/Gurkankaradag0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "playwright": "npx playwright install webkit --with-deps",
+        "dev": "node --watch src/v1/index.js",
+        "v1": "node src/v1/index.js"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "discord.js": "^14.15.3",
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.5.2",
+        "playwright": "^1.45.3",
+        "pusher-js": "^8.4.0-rc2"
+    }
+}
