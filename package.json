@@ -11,7 +11,8 @@
     "scripts": {
         "playwright": "npx playwright install webkit --with-deps",
         "dev": "node --watch src/v1/index.js",
-        "v1": "node src/v1/index.js"
+        "v1": "node src/v1/index.js",
+        "v2": "node src/v2/index.js"
     },
     "devDependencies": {
         "@types/bun": "latest"
